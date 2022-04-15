@@ -10,7 +10,7 @@ const BackIcon = () => {
     <IconDiv>
         <div>
             <IoMdArrowRoundBack className='icon' onClick={() => navigate("/")} />
-            <p>Back to Home</p>
+            <p>Back to Homepage</p>
         </div>
     </IconDiv>
   )

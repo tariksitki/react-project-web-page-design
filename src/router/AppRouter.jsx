@@ -4,9 +4,8 @@ import Home from "../pages/home/Home";
 import About from "../pages/about/About";
 import Services from "../pages/services/Services";
 import Html from "../pages/html/Html";
-import Css from "../pages/Css";
-import Logo from "../pages/Logo";
-
+import Css from "../pages/cssPage/Css";
+import Logo from "../pages/logoPage/Logo";
 
 const AppRouter = () => {
   return (

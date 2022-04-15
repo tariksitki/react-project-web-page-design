@@ -38,7 +38,7 @@ export const AboutMainContainerRight = styled.section`
     width: 28%;
     padding: 2rem;
     background-color: rgb(43, 53, 63);
-    height: 50%;
+    height: 56%;
     margin-top: 3.5rem;
     color: rgb(241, 239, 239);
     margin-right: 1.7rem;
