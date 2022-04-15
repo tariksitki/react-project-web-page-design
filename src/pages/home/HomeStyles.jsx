@@ -46,6 +46,7 @@ export const SectionMiddle = styled.section`
             border-radius: 0px 10px;
             outline: none;
             padding-left: 1rem;
+            border: none;
         }
         button {
             width: 28%;

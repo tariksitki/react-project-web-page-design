@@ -1,8 +1,8 @@
 
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
 import Home from "../pages/home/Home";
-import About from "../pages/About";
-import Services from "../pages/Services";
+import About from "../pages/about/About";
+import Services from "../pages/services/Services";
 import Html from "../pages/Html";
 import Css from "../pages/Css";
 import Logo from "../pages/Logo";
