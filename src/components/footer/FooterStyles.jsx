@@ -13,5 +13,9 @@ export const FooterMain = styled.footer`
         /* color: rgb(147, 66, 181); */
         color: white;
     }
+
+    img {
+        height: 2.5rem;
+    }
        
 ` 
