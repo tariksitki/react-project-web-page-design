@@ -15,7 +15,7 @@ export const IconDiv = styled.div`
     .icon {
         width: 2rem;
         height: 2rem;
-        margin-left: 2rem;
+        margin-left: 1rem;
         cursor: pointer;
         &:hover {
             color : rgb(177, 101, 209);
