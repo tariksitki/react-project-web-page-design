@@ -1,14 +1,17 @@
 import React from "react";
 import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/navbar/Navbar";
-import { HomeHeader, SectionMiddle, SectionDown } from "./HomeStyles";
+import { HomeHeader,  SectionDown } from "./HomeStyles";
 import ShowcaseFoto from "../../assets/img/showcase.jpg";
 import CardContainer from "../../components/card/Card";
 import htmlFoto from "../../assets/img/logo_html.png";
 import cssFoto from "../../assets/img/logo_css.png";
 import graphicFoto from "../../assets/img/logo_brush.png";
+import SectionMiddle from "../../components/sectionMiddle/SectionMiddle";
+
 
 const Home = () => {
+  
   return (
     <React.Fragment>
       <Navbar />
@@ -20,21 +23,8 @@ const Home = () => {
           voluptate
         </p>
       </HomeHeader>
-      <SectionMiddle>
-        <div className="left">
-          <h3>Subscribe To Our Newsletter</h3>
-        </div>
 
-        <div className="right">
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Enter Your E-Mail"
-          />
-          <button type="submit">Subscribe</button>
-        </div>
-      </SectionMiddle>
+      <SectionMiddle />
 
       <SectionDown>
         <CardContainer
@@ -43,6 +33,7 @@ const Home = () => {
           text={
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore numquam magni, ad pariatur odit perferendis?"
           }
+          navigateUrl = {"/html"}
         />
         <CardContainer
           imageUrl={cssFoto}
@@ -50,6 +41,7 @@ const Home = () => {
           text={
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore numquam magni, ad pariatur odit perferendis?"
           }
+          navigateUrl = {"/css"}
         />
         <CardContainer
           imageUrl={graphicFoto}
@@ -57,6 +49,7 @@ const Home = () => {
           text={
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore numquam magni, ad pariatur odit perferendis?"
           }
+          navigateUrl = {"/logo"}
         />
       </SectionDown>
 

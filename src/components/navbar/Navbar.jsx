@@ -8,10 +8,14 @@ const Navbar = () => {
   const handleClick = () => {
     navigate("/services");
   }
+  const handleClickLogo = () => {
+    navigate("/");
+  }
+
   return (
       <NavbarMain>
         <NavLeft>
-          <h2>CLARUSWAY <span>Web Design </span></h2>
+          <h2 onClick={handleClickLogo} >CLARUSWAY <span>Web Design </span></h2>
         </NavLeft>
 
         <NavRight>

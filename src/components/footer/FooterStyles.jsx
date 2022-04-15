@@ -8,9 +8,10 @@ export const FooterMain = styled.footer`
     /* flex-direction: column; */
     justify-content: space-around;
     align-items: center;
-    font-size: 1rem;
+    font-size: 0.8rem;
     p {
-        color: rgb(147, 66, 181);
+        /* color: rgb(147, 66, 181); */
+        color: white;
     }
        
 ` 

@@ -1,7 +1,8 @@
 import React from "react";
 import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/navbar/Navbar";
-import { SectionMiddle } from "../home/HomeStyles";
+import SectionMiddle from "../../components/sectionMiddle/SectionMiddle";
+
 import {
   AboutMainContainer,
   AboutMainContainerLeft,
@@ -12,21 +13,7 @@ const About = () => {
   return (
     <>
       <Navbar />
-      <SectionMiddle>
-        <div className="left">
-          <h3>Subscribe To Our Newsletter</h3>
-        </div>
-
-        <div className="right">
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Enter Your E-Mail"
-          />
-          <button type="submit">Subscribe</button>
-        </div>
-      </SectionMiddle>
+      <SectionMiddle />
 
       <AboutMainContainer>
         <AboutMainContainerLeft>

@@ -16,6 +16,7 @@ export const NavLeft = styled.div`
     margin-left: 1rem;
     h2 {
         color: rgb(177, 101, 209);
+        cursor: pointer;
     }
     span {
         color: rgb(241, 239, 239);
